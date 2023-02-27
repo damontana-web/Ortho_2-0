@@ -192,7 +192,7 @@ section {
 }
 
 .header .logo img {
-  max-height: 40px;
+  max-height: 58px;
   margin-right: 6px;
 }
 
@@ -455,6 +455,7 @@ section {
   height: 100vh;
   background: url(../img/hero-bg.png) top center no-repeat;
   background-size: cover;
+  padding-top: 10%;
 }
 
 .hero h1 {
@@ -640,10 +641,13 @@ transform: translateX(5px);
   background-color: #f6f9ff;
   padding: 40px;
   border: 1px #2E6D8A solid;
-  border-radius: 0 12px 12px 0;
+  border-radius:12px 12px 0 0;
   margin: -182px 0 0 -8px;
 }
-
+.map .list {
+  padding-top: 40px;
+  margin-top: -30px;
+}
 
 .map p {
 margin: 15px 0 30px 0;
@@ -652,7 +656,7 @@ line-height: 24px;
 
 .map .btn-read-more {
   line-height: 0;
-  padding: 15px 14px;
+  padding: 20px 15px;
   border-radius: 45px;
   transition: 0.5s;
   float: left;
@@ -677,6 +681,12 @@ transition: 0.3s;
 
 .map .btn-read-more:hover i {
 transform: translateX(5px);
+}
+
+.map .statetext{
+  margin: 0px 0 -25px 0px !important;
+  padding: 15px 0 0 0 !important;
+
 }
 
 /*--------------------------------------------------------------
@@ -713,7 +723,7 @@ transform: translateX(5px);
   transform: scale(1);
 }
 #values {
-  margin-bottom: 40px;
+  margin-bottom: 10px;
 }
 
 /*--------------------------------------------------------------
@@ -774,7 +784,7 @@ transform: translateX(5px);
 }
 #specialist {
   padding: 0px 0 35px 0 !important;
-  margin: -140px 0 0 0 !important;
+  margin:  0 !important;
 }
 /*--------------------------------------------------------------
 # Top Banner
@@ -1761,9 +1771,7 @@ padding-left: 50px;
   color: #165C7D;
 }
 
-.recent-blog-posts .post-box:hover .post-img img {
-  /*transform: rotate(6deg) scale(1.2);*/
-}
+
 
 /*--------------------------------------------------------------
 # Contact
@@ -1774,10 +1782,7 @@ padding-left: 50px;
   
 }
 
-.contact .contentform {
 
-  
-}
 .contact .contentform img {
     width: 100%;
     height: 100%;
