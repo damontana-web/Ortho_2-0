@@ -73,8 +73,27 @@ section {
     line-height: 32px;
   }
 .specialist img {
-    padding: 0px 0 35px 0 !important;
-    margin: 130px 0 -70px 0 !important
+  padding: 0px 0 27px 0 !important;
+  margin-top: -50px !important;
+  margin-bottom: -55px !important;
+}
+
+.about .content {
+  margin-top: 25px !important;
+  padding: 15px 20px 15px 20px !important;
+}
+
+.map-container {
+  height: 485px !important;
+}
+.about img {
+  margin: 0 !important;
+  min-width: 180px !important;
+  min-height: 135px !important;
+}
+.contact .contentform img {
+  border-radius: 0 0 12px 12px !important;
+  margin: -25px 0 0 0px !important;
 }
 }
 
@@ -548,9 +567,7 @@ section {
   .hero .hero-img img {
     width: 100%;
   }
-  .about .content {
-    margin-top: 25px !important;
-}
+
 }
 
 /*--------------------------------------------------------------
@@ -781,12 +798,10 @@ transform: translateX(5px);
   height: 100%;
   max-height: 100% !important;
   border-radius: 0 12px 12px 0;
-  margin: 0px;
+  padding: 34px 0 35px 0 !important;
+  margin-top: -100px;
 }
-#specialist {
-  padding: 0px 0 35px 0 !important;
-  margin-top: -100px !important;
-}
+
 /*--------------------------------------------------------------
 # Top Banner
 --------------------------------------------------------------*/
