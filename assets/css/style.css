@@ -107,6 +107,9 @@ section {
   font-size: 14px !important;
   padding: 5px 2px !important;
 }
+.header .logo img {
+  max-height: 52px !important;
+}
 }
 
 /*--------------------------------------------------------------
@@ -690,7 +693,7 @@ line-height: 24px;
   border-radius: 45px;
   transition: 0.5s;
   float: left;
-  margin: 8px 0px 8px 0;
+  margin: 8px 8px 8px 0;
   color: #fff;
   background: #165C7D;
   box-shadow: 0px 5px 25px rgb(105 179 231 / 30%);
